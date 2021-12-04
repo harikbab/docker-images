@@ -1,4 +1,4 @@
-FROM couchbase:latest
+FROM couchbase:server:community-6.6.0
 
 COPY configure-node.sh /opt/couchbase
 
